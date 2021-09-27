@@ -1,0 +1,100 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color:whitesmoke;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.topbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbarIconContainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.topRight{
+    display: flex;
+    align-items: center;
+}
+
+.iconNotify{
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.top-avartar{
+    position: flex;
+    height: 27px;
+    width: 27px;
+    border-radius: 45px;
+}
+
+.logo{
+    font-weight:bolder;
+    font-size: 40px;
+    color: darkcyan;
+    cursor: pointer;
+}
+.top-avartar{
+    cursor: pointer;
+}
+.topAvartarArrow svg{
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    border-radius:45px;
+    transition: background var(--speed);
+    padding: 0.1rem;
+}
+.topAvartarArrow svg:hover{
+    background-color:  #D5DAC3;
+}
+.menuDropbar svg{
+    position: relative;
+}
+.dropDownBar{
+    position: absolute;
+    right: 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    -webkit-box-shadow: -8px 3px 15px 1px #000000; 
+    box-shadow: -8px 3px 15px 1px #000000;
+}
+.dropDownBarLanguage{
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    -webkit-box-shadow: -8px 3px 15px 1px #000000; 
+    box-shadow: -8px 3px 15px 1px #000000;
+}
+
+.iconDropbar{
+    font-weight: 1000;
+    cursor: pointer;
+}
+.content{
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+}
+.content-text{
+    margin-left: 10px;
+}

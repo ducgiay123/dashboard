@@ -1,0 +1,9 @@
+.home{
+    flex:10;
+    display: center;
+    position: relative;
+    top: 10px;
+}
+.widget_bar{
+    display:flex;
+}
